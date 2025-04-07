@@ -8,7 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        prussianblue: "#11263aff",
+        prussianblue2: "#162e44ff",
+        fullwhite: "#ffffffff",
+        seasalt: "#f7f7f7ff",
+        lightseagreen: "#01b3a7ff",
+      },
     },
   },
   plugins: [],
