@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.ts"],"sourcesContent":["import { type NextRequest } from 'next/server'\r\nimport { updateSession } from '@/utils/supabase/middleware'\r\n\r\nexport async function middleware(request: NextRequest) {\r\n  return await updateSession(request)\r\n}\r\n\r\nexport const config = {\r\n  matcher: [\r\n    /*\r\n     * Match all request paths except for the ones starting with:\r\n     * - _next/static (static files)\r\n     * - _next/image (image optimization files)\r\n     * - favicon.ico (favicon file)\r\n     * Feel free to modify this pattern to include more paths.\r\n     */\r\n    '/((?!_next/static|_next/image|favicon.ico|.*\\\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',\r\n  ],\r\n}"],"names":[],"mappings":";;;;;;;;;;AAGO,eAAe,WAAW,OAAoB;IACnD,OAAO,MAAM,cAAc;AAC7B;AAEO,MAAM,SAAS;IACpB,SAAS;QACP;;;;;;KAMC,GACD;KACD;AACH"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

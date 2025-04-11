@@ -8,9 +8,10 @@ type SlideshowProps = {
   autoplay?: boolean;
   slideDuration?: number;
   transitionDuration?: number;
+  verticalMode?: boolean;
 };
 
-const Slideshow = ({ children, index, setIndex, autoplay, slideDuration = 5, transitionDuration = 0.3 }: SlideshowProps) => {
+const Slideshow = ({ children, index, setIndex, autoplay, slideDuration = 5, transitionDuration = 0.3, verticalMode }: SlideshowProps) => {
   useEffect(() => {
     if (!autoplay) return;
     if (!setIndex) {
@@ -28,16 +29,16 @@ const Slideshow = ({ children, index, setIndex, autoplay, slideDuration = 5, tra
   }, [index, autoplay]);
 
   return (
-    <section className="w-full h-auto overflow-hidden">
+    <section className="w-full h-full overflow-hidden">
       <article
-        className={"flex relative w-full transition-all flex-shrink-0"}
+        className={`flex relative w-full h-full transition-all flex-shrink-0 ${verticalMode ? "flex-col" : ""}`}
         style={{
-          left: `${-100 * index}%`,
+          transform: `translate${verticalMode ? "Y" : "X"}(${-100 * index}%)`,
           transitionDuration: `${transitionDuration}s`,
         }}
       >
         {Children.map(children, (child, i) => (
-          <div id={i + "slideshow" + String(child)} className={`w-full h-full flex-shrink-0 transition-all`}>
+          <div key={i + "slideshow" + String(child)} className={`[transition:transform] w-full h-full flex-shrink-0`}>
             {child}
           </div>
         ))}

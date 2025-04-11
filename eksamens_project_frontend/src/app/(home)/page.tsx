@@ -1,17 +1,21 @@
 "use client";
-import ReactQueryExample from "@/components/query/ReactQueryExample";
-import Container from "@/components/ui/Container";
-import ExampleSlideshow from "@/components/ui/slideshow/ExampleSlideshow";
-import ExampleSlideshowInfinite from "@/components/ui/slideshow/ExampleSlideshowInfinite";
+import SpaceSlideshow from "@/components/SpaceSlideshow";
+import Container from "@/components/Container";
+import VoresTureSection from "@/components/VoresTureSection";
+import OmOsSection from "@/components/OmOsSection";
+import VoresTeamSection from "@/components/VoresTeamSection";
+import NyhedsbrevSection from "@/components/NyhedsbrevSection";
 
 const Home = () => {
   return (
-    <main>
+    <main className="">
+      <SpaceSlideshow />
       <Container>
-        <ExampleSlideshow />
-        <ExampleSlideshowInfinite />
+        <VoresTureSection />
+        <OmOsSection />
+        <VoresTeamSection />
       </Container>
-      <ReactQueryExample />
+      <NyhedsbrevSection />
     </main>
   );
 };

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/components/admin/layout/AdminMenu.tsx"],"sourcesContent":["\r\nconst AdminMenu = () => {\r\n  return (\r\n    <article className=\"fixed flex flex-col top-0 left-0 w-[300px] h-screen bg-lightseagreen overflow-y-auto \">\r\n        <figure className=\"w-full text-center my-4 text-4xl font-bold\">\r\n            ADMIN PAGE\r\n        </figure>\r\n    </article>\r\n  )\r\n}\r\n\r\nexport default AdminMenu"],"names":[],"mappings":";;;;;AACA,MAAM,YAAY;IAChB,qBACE,8OAAC;QAAQ,WAAU;kBACf,cAAA,8OAAC;YAAO,WAAU;sBAA6C;;;;;;;;;;;AAKvE;uCAEe"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/app/admin/layout.tsx"],"sourcesContent":["import AdminHeader from \"@/components/admin/layout/AdminHeader\";\r\nimport AdminMenu from \"@/components/admin/layout/AdminMenu\";\r\n\r\nexport default function AdminLayout({ children }: { children: React.ReactNode }) {\r\n  return <body className=\"antialiased flex flex-col ms-[300px] min-h-[100vh]\">\r\n    <AdminMenu />\r\n    {children}\r\n    </body>;\r\n}\r\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS,YAAY,EAAE,QAAQ,EAAiC;IAC7E,qBAAO,8OAAC;QAAK,WAAU;;0BACrB,8OAAC,kJAAA,CAAA,UAAS;;;;;YACT;;;;;;;AAEL"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

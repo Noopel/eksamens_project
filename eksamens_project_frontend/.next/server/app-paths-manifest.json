@@ -1,0 +1,10 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(home)/page": "app/(home)/page.js",
+  "/(home)/rumfaergen/page": "app/(home)/rumfaergen/page.js",
+  "/(home)/ture/page": "app/(home)/ture/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/ture/page": "app/admin/ture/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/rumfaergen/page": "app/admin/rumfaergen/page.js"
+}

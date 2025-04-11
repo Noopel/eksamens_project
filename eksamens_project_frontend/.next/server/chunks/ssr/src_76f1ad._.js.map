@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/components/Container.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport type ContainerProps = {\r\n    children?: React.ReactNode\r\n} & React.ComponentProps<\"article\">\r\n\r\nconst Container = (props: ContainerProps) => {\r\n  return (\r\n    <article {...props} className={`mx-auto w-full xl:max-w-[100rem] px-6 xl:px-0 ${props.className}`} >\r\n        {props.children}\r\n    </article>\r\n  )\r\n}\r\n\r\nexport default Container"],"names":[],"mappings":";;;;;AAMA,MAAM,YAAY,CAAC;IACjB,qBACE,8OAAC;QAAS,GAAG,KAAK;QAAE,WAAW,CAAC,8CAA8C,EAAE,MAAM,SAAS,EAAE;kBAC5F,MAAM,QAAQ;;;;;;AAGvB;uCAEe"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/app/%28home%29/ture/%5Bid%5D/page.tsx"],"sourcesContent":["\"use client\";\r\nimport Container from \"@/components/Container\";\r\nimport { useSearchParams } from \"next/navigation\";\r\nimport React from \"react\";\r\n\r\nconst TureIdPage = ({params}: {params: {id: string}}) => {\r\n  const id = params.id\r\n\r\n  return (\r\n    <main>\r\n      <Container>\r\n        <section className=\"w-[55%]\"></section>\r\n        <section className=\"w-[42.5%]\">{id}</section>\r\n      </Container>\r\n    </main>\r\n  );\r\n};\r\n\r\nexport default TureIdPage;\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAKA,MAAM,aAAa,CAAC,EAAC,MAAM,EAAyB;IAClD,MAAM,KAAK,OAAO,EAAE;IAEpB,qBACE,8OAAC;kBACC,cAAA,8OAAC,+HAAA,CAAA,UAAS;;8BACR,8OAAC;oBAAQ,WAAU;;;;;;8BACnB,8OAAC;oBAAQ,WAAU;8BAAa;;;;;;;;;;;;;;;;;AAIxC;uCAEe"}},
+    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

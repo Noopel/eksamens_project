@@ -3,8 +3,8 @@ import "./globals.css";
 import ReactQueryClientProvider from "@/components/query/ReactQueryClientProvider";
 
 export const metadata: Metadata = {
-  title: "Boilerplate",
-  description: "A boilerplate for Next",
+  title: "SpaceVenture",
+  description: "Get a trip to space with SpaceVenture!",
 };
 
 export default function RootLayout({

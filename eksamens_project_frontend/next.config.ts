@@ -4,7 +4,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     remotePatterns: [{
-      hostname: "wbdxiyoavhnrljziixqc.supabase.co"
+      hostname: "localhost",
+      port: "4444",
+      protocol: "http"
     }]
   }
 };

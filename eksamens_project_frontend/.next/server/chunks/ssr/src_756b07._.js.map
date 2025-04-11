@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/components/layout/Footer.tsx"],"sourcesContent":["\r\nconst Footer = () => {\r\n  return (\r\n    <footer className=\"min-h-12 bg-neutral-300\">\r\n\r\n    </footer>\r\n  )\r\n}\r\n\r\nexport default Footer"],"names":[],"mappings":";;;;;AACA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAO,WAAU;;;;;;AAItB;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/components/layout/Header.tsx"],"sourcesContent":["import Navbar from \"./Navbar\";\r\n\r\nconst Header = () => {\r\n  return (\r\n    <header className=\"bg-neutral-300 min-h-12\">\r\n      \r\n    </header>\r\n  );\r\n};\r\n\r\nexport default Header;\r\n"],"names":[],"mappings":";;;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAO,WAAU;;;;;;AAItB;uCAEe"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/app/%28home%29/layout.tsx"],"sourcesContent":["import Footer from \"@/components/layout/Footer\";\r\nimport Header from \"@/components/layout/Header\";\r\n\r\nexport default function HomeLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <body className=\"antialiased\">\r\n      <Header />\r\n      {children}\r\n      <Footer />\r\n    </body>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC,sIAAA,CAAA,UAAM;;;;;YACN;0BACD,8OAAC,sIAAA,CAAA,UAAM;;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

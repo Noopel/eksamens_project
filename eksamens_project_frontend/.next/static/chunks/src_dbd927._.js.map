@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/components/ui/Container.tsx"],"sourcesContent":["import { ComponentProps} from \"react\";\r\n\r\nconst Container = (props: ComponentProps<\"article\"> ) => {\r\n  return <article {...props} className={`mx-auto container ${props.className}`}>{props.children}</article>;\r\n};\r\n\r\nexport default Container;\r\n"],"names":[],"mappings":";;;;;AAEA,MAAM,YAAY,CAAC;IACjB,qBAAO,6LAAC;QAAS,GAAG,KAAK;QAAE,WAAW,CAAC,kBAAkB,EAAE,MAAM,SAAS,EAAE;kBAAG,MAAM,QAAQ;;;;;;AAC/F;KAFM;uCAIS"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file://D%3A/WebDev/eksamens_project/eksamens_project_frontend/src/app/%28home%29/page.tsx"],"sourcesContent":["\"use client\";\r\nimport Container from \"@/components/ui/Container\";\r\n\r\nconst Home = () => {\r\n  return (\r\n    <main className=\"my-80\">\r\n      <Container>\r\n        \r\n      </Container>\r\n    </main>\r\n  );\r\n};\r\n\r\nexport default Home;\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGA,MAAM,OAAO;IACX,qBACE,6LAAC;QAAK,WAAU;kBACd,cAAA,6LAAC,wIAAA,CAAA,UAAS;;;;;;;;;;AAKhB;KARM;uCAUS"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
